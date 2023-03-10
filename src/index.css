@@ -5,9 +5,90 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.nav {
+  box-shadow: 1px 1px 10px gray;
+  padding: 10px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.home-parent-div {
+  height: 100vh;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-50 {
+  height: 40vh;
+}
+
+.h-100 {
+  min-height: 90vh;
+}
+
+.g-50 {
+  gap: 50px;
+}
+
+.g-large {
+  gap: 70px;
+}
+
+.g-10 {
+  gap: 10px;
+}
+
+.button-main {
+  border: 1px solid orange;
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color: white;
+  color: orange;
+  font-size: 20px;
+}
+
+.p-normal {
+  padding: 20px;
+}
+
+.g-text {
+  width: 900px;
+  min-height: 10vh;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.m-top {
+  margin-top: 50px;
+}
+
+.dino-orange {
+  color: orange
 }
